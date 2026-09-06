@@ -13,5 +13,5 @@ if "Oolong" in tea_varities:
    print("Yes i have do you want Oolong tea")
 
 #  LIST COMPARIHANSON
-squared_number = [x**3 for x in range(10)]
-print(squared_number)
+cubed_number = [x**3 for x in range(10)]
+print(cubed_number)
