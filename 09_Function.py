@@ -14,6 +14,12 @@ def print_kwargs(**kwargs):
    for key, value in kwargs.items():
       print(f"{key}: {value}")
 #-9 Genrator Function With Yield (Write a genrator function that yields even numbers upto a specificied limits)
+def even_number_genrator(limit):
+   for i in range(2, limit + 1, 2):
+      yield i # Understand it it store function in refrence
+
+for num in even_number_genrator(10):
+   print(num)
 #-10 Recursive Function
 def factorial(n):
    if (n == 0):
